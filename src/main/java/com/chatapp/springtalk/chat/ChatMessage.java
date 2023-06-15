@@ -1,7 +1,6 @@
-package net.chatapp.springtalk.controller;
+package com.chatapp.springtalk.chat;
 
 import lombok.*;
-import net.chatapp.springtalk.enums.MessageType;
 
 @Getter
 @Setter
@@ -10,9 +9,11 @@ import net.chatapp.springtalk.enums.MessageType;
 @Builder
 public class ChatMessage {
 
+    private MessageType type;
+
     private String content;
 
     private String sender;
 
-    private MessageType type;
+
 }

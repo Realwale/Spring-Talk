@@ -1,4 +1,4 @@
-package net.chatapp.springtalk;
+package com.chatapp.springtalk;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

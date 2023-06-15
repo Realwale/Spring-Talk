@@ -1,4 +1,4 @@
-package net.chatapp.springtalk;
+package com.chatapp.springtalk;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

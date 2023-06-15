@@ -1,10 +1,8 @@
-package net.chatapp.springtalk.enums;
+package com.chatapp.springtalk.chat;
 
 public enum MessageType {
 
-    JOIN,
-
     CHAT,
-
+    JOIN,
     LEAVE
 }
