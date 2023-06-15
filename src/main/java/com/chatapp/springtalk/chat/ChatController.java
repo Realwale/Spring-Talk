@@ -23,7 +23,7 @@ public class ChatController {
     public ChatMessage addUser(@Payload ChatMessage chatMessage,
         SimpMessageHeaderAccessor headerAccessor){
 
-        Objects.requireNonNull(headerAccessor.getSessionAttributes()).put("username", chatMessage.getSender());
+        headerAccessor.getSessionAttributes().put("username", chatMessage.getSender());
 
         return chatMessage;
     }
